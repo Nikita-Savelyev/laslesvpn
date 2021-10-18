@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LaslesVPN</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo">
+					<a class="header__logo-link" href="#">
+						<img class="header__logo-img" src="img/logo.svg" alt="logo">
+					</a>
+				</div>
+
+				<nav class="header__menu menu">
+					<button class="menu__btn">
+						<span class="menu__btn-line"></span>
+						<span class="menu__btn-line"></span>
+						<span class="menu__btn-line"></span>
+						<span class="menu__btn-line"></span>
+					</button>
+
+					<ul class="menu__list">
+						<li class="menu__list-item"><a class="menu__list-link" href="#">О нас</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="#">Особенности</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="#">Цены</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="#">Отзывы</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="#">Помощь</a></li>
+						<li class="menu__list-item">
+							<a class="menu__list-link popup-item" href="#log">Вход</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link popup-item" href="#reg">Регистрация</a>
+						</li>
+					</ul>
+
+					<div class="menu__background"></div>
+				</nav>
+
+				<div class="header__authorization">
+					<a class="header__sign-in popup-item" href="#log">Вход</a>
+					<a class="header__sign-up popup-item" href="#reg">Регистрация</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="top">
+		<div class="container">
+			<div class="top__inner">
+				<div class="top__content">
+					<h1 class="top__title">
+						Воплощать идеи в жизнь легче с <span class="top__title-bold">LaslesVPN.</span>
+					</h1>
+
+					<p class="top__text">
+						С легкостью создайте сеть для всех ваших потребностей, используя <span
+							class="top__text-bold">LaslesVPN</span>, откройте для себя новые интересные возможности
+					</p>
+
+					<a class="top__btn default-btn" href="#">Начать</a>
+				</div>
+
+				<div class="top__img-wrapper">
+					<img class="top__img" src="img/top-img.svg" alt="image">
+					<img class="top__img-animated animated" src="img/top-img-animated.svg" alt="image">
+				</div>
+
+				<a class="top__btn-media default-btn" href="#">Начать</a>
+			</div>
+		</div>
+	</section>
+
+	<div class="stat">
+		<div class="container">
+			<div class="stat__inner">
+				<div class="stat__column">
+					<div class="stat__item">
+						<img class="stat__img" src="img/user.svg" alt="image">
+						<div class="stat__info">
+							<div class="stat__number">200+</div>
+							<div class="stat__text">Пользователей</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="stat__column">
+					<div class="stat__item">
+						<img class="stat__img" src="img/location.svg" alt="image">
+						<div class="stat__info">
+							<div class="stat__number">30+</div>
+							<div class="stat__text">Точек</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="stat__column">
+					<div class="stat__item">
+						<img class="stat__img" src="img/server.svg" alt="image">
+						<div class="stat__info">
+							<div class="stat__number">50+</div>
+							<div class="stat__text">Серверов</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="features">
+		<div class="container">
+			<div class="features__inner">
+				<div class="features__img-wrapper">
+					<img class="features__img" src="img/features-img.svg" alt="image">
+					<img class="features__img-animated animated" src="img/features-img-animated.svg" alt="image">
+				</div>
+
+				<div class="features__content">
+					<h2 class="features__title">
+						Мы предосталяем вам много возможностей
+					</h2>
+
+					<p class="features__text">
+						Вы можете изучить все функции, которые мы предоставляем, и которые можно настроить под себя.
+					</p>
+
+					<ul class="features__list">
+						<li class="features__list-item">Надежная защита</li>
+						<li class="features__list-item">Безлимитный интернет</li>
+						<li class="features__list-item">Многофункциональный VPN</li>
+						<li class="features__list-item">Нет ограничений по времени</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="plan">
+		<div class="container">
+			<div class="plan__head default-head">
+				<h2 class="plan__title default-head__title">
+					Выберите тариф
+				</h2>
+				<p class="plan__text">
+					Давайте выберем тариф, который подходит вам больше всего, и рассмотрим его поподробнее.
+				</p>
+			</div>
+
+			<div class="plan__inner">
+				<div class="plan__item plan-item">
+					<div class="plan-item__top">
+						<img class="plan-item__img-animated animated" src="img/box-animated.svg" alt="image">
+						<img class="plan-item__img" src="img/box.svg" alt="image">
+						<h3 class="plan-item__title">
+							Бесплатный тариф
+						</h3>
+
+						<ul class="plan-item__list">
+							<li class="plan-item__list-item">Высокая пропускная<br>способность</li>
+							<li class="plan-item__list-item">Зашифрованное<br>соединение</li>
+							<li class="plan-item__list-item">Без логов трафика</li>
+							<li class="plan-item__list-item">Работает на всех<br>устройствах</li>
+						</ul>
+					</div>
+
+					<div class="plan-item__bottom">
+						<div class="plan-item__price">
+							<span class="plan-item__price-num">Бесплатно</span>
+						</div>
+						<a class="plan-item__btn" href="#">Выбрать</a>
+					</div>
+				</div>
+
+				<div class="plan__item plan-item">
+					<div class="plan-item__top">
+						<img class="plan-item__img-animated animated" src="img/box-animated.svg" alt="image">
+						<img class="plan-item__img" src="img/box.svg" alt="image">
+						<h3 class="plan-item__title">
+							Стандартный тариф
+						</h3>
+
+						<ul class="plan-item__list">
+							<li class="plan-item__list-item">Высокая пропускная<br>способность</li>
+							<li class="plan-item__list-item">Зашифрованное<br>соединение</li>
+							<li class="plan-item__list-item">Без логов трафика</li>
+							<li class="plan-item__list-item">Работает на всех<br>устройствах</li>
+							<li class="plan-item__list-item">Подключение<br>где угодно</li>
+						</ul>
+					</div>
+
+					<div class="plan-item__bottom">
+						<div class="plan-item__price">
+							<span class="plan-item__price-num">$9</span> / мес
+						</div>
+						<a class="plan-item__btn" href="#">Выбрать</a>
+					</div>
+				</div>
+
+				<div class="plan__item plan-item">
+					<div class="plan-item__top">
+						<img class="plan-item__img-animated animated" src="img/box-animated.svg" alt="image">
+						<img class="plan-item__img" src="img/box.svg" alt="image">
+						<h3 class="plan-item__title">
+							Премиум тариф
+						</h3>
+
+						<ul class="plan-item__list">
+							<li class="plan-item__list-item">Высокая пропускная<br>способность</li>
+							<li class="plan-item__list-item">Зашифрованное<br>соединение</li>
+							<li class="plan-item__list-item">Без логов трафика</li>
+							<li class="plan-item__list-item">Работает на всех<br>устройствах</li>
+							<li class="plan-item__list-item">Подключение<br>где угодно</li>
+							<li class="plan-item__list-item">Доступ к самым новым<br>функциям</li>
+						</ul>
+					</div>
+
+					<div class="plan-item__bottom">
+						<div class="plan-item__price">
+							<span class="plan-item__price-num">$12</span> / мес
+						</div>
+						<a class="plan-item__btn" href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="global">
+		<div class="container">
+			<div class="global__head default-head">
+				<h2 class="global__title default-head__title">
+					Большая удобная сеть<br>быстрого VPN
+				</h2>
+				<p class="global__text">
+					LaslesVPN имеет множество точек подключения по всему миру, что делает его быстрым и удобным
+				</p>
+			</div>
+
+			<div class="global__map global-map">
+				<img class="global-map__img" src="img/map.svg" alt="image">
+				<img class="global-map__dot global-map__dot-one animated" src="img/map-dot-one.svg" alt="image">
+				<img class="global-map__dot global-map__dot-two animated" src="img/map-dot-two.svg" alt="image">
+				<img class="global-map__dot global-map__dot-three animated" src="img/map-dot-three.svg" alt="image">
+				<img class="global-map__dot global-map__dot-four animated" src="img/map-dot-four.svg" alt="image">
+			</div>
+
+			<div class="global__media">
+				<img class="global__media-img" src="img/map-media.svg" alt="image">
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews">
+		<div class="container">
+			<div class="reviews__inner">
+				<div class="reviews__head default-head">
+					<h2 class="reviews__title default-head__title">
+						Нам доверяет множество<br>довольных клиентов
+					</h2>
+					<p class="reviews__text">
+						Здесь собраны отзывы людей, которые недавно присоединились к нам
+					</p>
+				</div>
+
+				<div class="reviews__slider">
+					<div class="reviews__slider-item slider-item">
+						<div class="slider-item__head">
+							<div class="slider-item__user">
+								<div class="slider-item__img-wrapper">
+									<img class="slider-item__img" src="img/user1.png" alt="image">
+								</div>
+								<div class="slider-item__user-info">
+									<div class="slider-item__name">
+										Viezh Robert
+									</div>
+									<div class="slider-item__address">
+										Warsaw, Poland
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__rating">
+								5
+							</div>
+						</div>
+						<p class="slider-item__text">
+							“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far
+							there have been no problems. LaslesVPN always the best”.
+						</p>
+					</div>
+
+					<div class="reviews__slider-item slider-item">
+						<div class="slider-item__head">
+							<div class="slider-item__user">
+								<div class="slider-item__img-wrapper">
+									<img class="slider-item__img" src="img/user2.png" alt="image">
+								</div>
+								<div class="slider-item__user-info">
+									<div class="slider-item__name">
+										Yessica Christy
+									</div>
+									<div class="slider-item__address">
+										Shanxi, China
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__rating">
+								4.5
+							</div>
+						</div>
+						<p class="slider-item__text">
+							“I like it because I like to travel far and still can connect with high speed.”.
+						</p>
+					</div>
+
+					<div class="reviews__slider-item slider-item">
+						<div class="slider-item__head">
+							<div class="slider-item__user">
+								<div class="slider-item__img-wrapper">
+									<img class="slider-item__img" src="img/user3.png" alt="image">
+								</div>
+								<div class="slider-item__user-info">
+									<div class="slider-item__name">
+										Kim Young Joui
+									</div>
+									<div class="slider-item__address">
+										Seoul, South Korea
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__rating">
+								4.5
+							</div>
+						</div>
+						<p class="slider-item__text">
+							“This is very unusual for my business that currently requires a virtual private network that has
+							high security.”.
+						</p>
+					</div>
+
+					<div class="reviews__slider-item slider-item">
+						<div class="slider-item__head">
+							<div class="slider-item__user">
+								<div class="slider-item__img-wrapper">
+									<img class="slider-item__img" src="img/user1.png" alt="image">
+								</div>
+								<div class="slider-item__user-info">
+									<div class="slider-item__name">
+										Viezh Robert
+									</div>
+									<div class="slider-item__address">
+										Warsaw, Poland
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__rating">
+								4.5
+							</div>
+						</div>
+						<p class="slider-item__text">
+							“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far
+							there have been no problems. LaslesVPN always the best”.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+
+			<div class="footer__inner">
+				<div class="footer__subscribe subscribe">
+					<div class="subscribe__inner">
+						<div class="subscribe__content">
+							<h2 class="subscribe__title">Подпишись, чтобы не пропускать специальные предложения</h2>
+							<p class="subscribe__text">Подпишитесь на рассылку</p>
+						</div>
+
+						<a class="subscribe__btn default-btn" href="#">Подписаться</a>
+					</div>
+				</div>
+
+				<div class="footer__content">
+					<div class="footer__left">
+						<div class="footer__logo">
+							<img class="footer__logo-img" src="img/logo.svg" alt="logo">
+						</div>
+						<p class="footer__text">
+							<span class="footer__bold">LaslesVPN</span> это приватная виртуальная сеть с уникальными функциями.
+						</p>
+						<div class="footer__social">
+							<a class="footer__social-link footer__social-facebook" href="#"></a>
+							<a class="footer__social-link footer__social-twitter" href="#"></a>
+							<a class="footer__social-link footer__social-instagram" href="#"></a>
+						</div>
+						<div class="footer__copy">
+							©2020 Lasles<span class="footer__bold">VPN</span>
+						</div>
+					</div>
+
+					<div class="footer__right">
+						<div class="footer__right-column">
+							<h3 class="footer__list-title drop-title">О продукте</h3>
+							<ul class="footer__list">
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Загрузить</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Цены</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Места</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Серверы</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Страны</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Блог</a></li>
+							</ul>
+						</div>
+
+						<div class="footer__right-column">
+							<h3 class="footer__list-title drop-title">О нас</h3>
+							<ul class="footer__list">
+								<li class="footer__list-item"><a class="footer__list-link" href="#">LaslesVPN ?</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">FAQ</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Советы</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">О нас</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Политика
+										конфиденциальности</a>
+								</li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Условия обслуживания</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="footer__right-column">
+							<h3 class="footer__list-title drop-title">Заработок</h3>
+							<ul class="footer__list">
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Партнерство</a></li>
+								<li class="footer__list-item"><a class="footer__list-link" href="#">Стать партнером</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__copy-media">
+						©2020 Lasles<span class="footer__bold">VPN</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<form id="log" class="login-form mfp-hide">
+		<h3 class="login-form__title">Вход</h3>
+		<div class="login-form__input-container">
+			<div class="login-form__input-wrapper">
+				<input class="login-form__input" type="text" placeholder="Имя пользователя" />
+			</div>
+			<div class="login-form__input-wrapper">
+				<input class="login-form__input" type="password" placeholder="Пароль" />
+			</div>
+		</div>
+		<button class="login-form__btn" type="submit">Войти</button>
+		<div class="login-form__link-wrapper">
+			<a class="login-form__link" href="#">Забыли пароль?</a>
+		</div>
+		<div class="login-form__link-wrapper">
+			<a class="login-form__link" href="#reg">Регистрация</a>
+		</div>
+	</form>
+
+	<form id="reg" class="reg-form mfp-hide">
+		<h3 class="reg-form__title">Регистрация</h3>
+		<div class="reg-form__input-container">
+			<div class="reg-form__input-wrapper">
+				<input class="reg-form__input" type="text" placeholder="Имя пользователя" />
+			</div>
+			<div class="reg-form__input-wrapper">
+				<input class="reg-form__input" type="email" placeholder="Адрес электронной почты" />
+			</div>
+			<div class="reg-form__input-wrapper">
+				<input class="reg-form__input" type="password" placeholder="Пароль" />
+			</div>
+			<div class="reg-form__input-wrapper">
+				<input class="reg-form__input" type="password" placeholder="Подтвердите пароль" />
+			</div>
+		</div>
+		<button class="reg-form__btn" type="submit">Регистрация</button>
+		<p class="reg-form__login">
+			Уже зарегистрированы? <a class="reg-form__link" href="#log">Войдите</a>
+		</p>
+	</form>
+
+	<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
